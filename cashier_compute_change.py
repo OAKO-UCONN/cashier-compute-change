@@ -13,4 +13,4 @@ def give_change(total, cost,d):
 
 
 d = {10:0,20:0,5:0,1:0}
-print('change: ', give_change(100, 55,d))
+print('change: ', give_change(100, 54,d))
