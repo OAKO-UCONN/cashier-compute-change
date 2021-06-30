@@ -1,7 +1,7 @@
 def give_change(total, cost,d):
     
     c = total-cost
-    sortedkeys=storted(d.keys(),reverse=True)
+    sortedkeys=sorted(d.keys(),reverse=True)
     print(sortedkeys)
     for i in sortedkeys:
         n = c//i
@@ -13,4 +13,4 @@ def give_change(total, cost,d):
 
 
 d = {10:0,20:0,5:0,1:0}
-print(give_change(100, 55,d))
+print('change: ', give_change(100, 55,d))
